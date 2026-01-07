@@ -1,0 +1,587 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin:0;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+
+header{
+display: flex;
+margin: 10px;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+
+#barres{
+    display: none;
+}
+
+@media screen and (max-width :1024px) {
+
+    header nav {
+        display: none;
+    }
+    header  {
+
+    margin: 10px 0px;
+    padding: 0px;
+    justify-content: space-between;
+    
+
+
+    ;
+    }
+
+    header #barres {
+
+    display :flex;
+    }
+
+
+
+    main .section6 {
+
+    grid-template-columns:min-content;
+    justify-items: baseline;
+        }
+
+     main .section6{
+
+        justify-self: center;
+     }   
+
+     main .section4 div{
+
+        grid-template-columns: 1fr;
+     }
+
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    gap: 40px;
+    display: flex;
+
+}
+
+header nav ul li a{
+    color: black;
+    border-color: white;
+}
+
+.accueilorange{
+
+    color: #F17124;
+}
+
+header nav ul li a:hover{
+    background-color: #F17124;
+    padding: 20px auto;
+    color: white;
+    border: solid;
+    border-radius: 30px;
+    padding: 1px 20px 2px 20px;
+    border-width: 1px;
+
+}
+
+
+
+
+
+
+footer > p {
+
+    text-align: center;
+    color: #F17124;
+    background-color: #EFEFEF;
+    padding: 15px;
+    font-size: 18px;
+
+
+
+}
+
+footer> p> a{
+
+    color: #F17124;
+    text-decoration: none;
+}
+
+
+
+.section1 {
+display: flex;
+background-color: #FAFAFA;
+width: 100%;
+justify-self: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 120px 0;
+
+}
+
+.article1 {
+display: block;
+justify-content: space-between;
+justify-self: center;
+}
+
+.article1 p{
+    max-width: 522px;
+}
+
+.article1 p{
+
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0 0 50px 0;
+}
+
+.div1s1 {
+
+    max-width: 1440px;
+    margin: 74px 10px 110px 10px;
+}
+
+.section1 h1{
+
+    color: #F17124;
+    font-size: 53px;
+    line-height: 80px;
+}
+
+.section1 a{
+    color: #F17124;
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    padding: 11px 40px;
+    border-width: 1px;
+    justify-self: center;
+    
+}
+
+.section1 a:hover{
+    color: white;
+    background-color: #F17124;
+}
+
+
+.section2 div{
+
+
+    max-width: 1140px;
+    margin: 0 386px;
+    padding: 90px;
+    justify-self: center;
+
+    
+}
+.section2 img{
+    width: 1120px;
+    max-width: fit-content;
+}
+
+.section2 {
+    text-align: -webkit-center;
+}
+
+
+.section3{
+
+    background-color: #F17124;
+    text-align: -webkit-center;
+    min-height: 330px;
+
+}
+
+.section3 p{
+
+    max-width: 1168px;
+    font-size: 23px;
+    line-height: 37px;
+    color: white;
+}
+
+.section3 div{
+
+    padding: 120px;
+}
+
+
+
+#bg01 { background-image:url(../img/01bfce4d7f6bc045e92afc3b51fb5913e3c04727.png)}
+#bg01 {background-size: 120px;}
+#bg01 {background-position: left;}
+#bg01 {background-repeat: no-repeat;}
+
+
+#bg02 { background-image:url(../img/029db38978751aaba76e2448bc85e6a8339c8b0a.png)}
+#bg02 {background-size: 120px;}
+#bg02 {background-position: left;}
+#bg02 {background-repeat: no-repeat;}
+
+#bg03 { background-image:url(../img/03b26889efee0e21a84aa1c829417730ae0b8c7.png)}
+#bg03 {background-size: 120px;}
+#bg03 {background-position: left;}
+#bg03 {background-repeat: no-repeat;}
+   
+.section4 div{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto 0px 60px 0px;
+    padding: 54px 150px 0 150px;
+    column-gap: 0px;
+   
+}
+
+.section4 article{
+
+    padding: 0 60px;
+}
+
+.section4 p{
+
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+}
+
+.section4 h2{
+
+    font-size: 31px;
+    line-height: 46px;
+    color: #F17124;
+    font-family: "kanit";
+    font-weight: 300;
+    padding: 35px;
+}
+
+
+
+
+.section5 p {
+
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+    width: 472px;
+    padding: 0 0 40px 0;
+
+}
+
+/* .section5 div{
+
+    margin: 60px 957px 10px 200px;
+
+} */
+
+/* .section5 {
+
+
+    padding: 50px 230px 90px 230px;
+} */
+
+
+
+.section5 { background-image:url(../img/e11b109732a5cbd2fc47c7ea15a08f8382997376.jpg)}
+.section5 { background-repeat: no-repeat;}
+.section5 { background-size: cover ;}
+.section5 { background-attachment: fixed;}
+
+
+
+.section5 div{
+    
+    background-color:rgb(0, 0, 0, 30%);
+    width: 100%;
+    min-height: 482px;
+}
+
+.section5 article{
+    
+    max-width: 1440px;
+
+    padding: 120px 200px;
+    justify-self: center;
+    margin: 0 500px 0 0;
+}
+
+
+
+
+
+.section5 a{
+    color: white; 
+    border: solid;
+    border-radius: 30px;
+    padding: 11px 30px;
+    border-width: 1px;
+    justify-self: center;
+    display: ruby-text;
+
+}
+
+.section5 a:hover{
+    
+    background-color: white;
+    background-color:rgba(0, 0, 0, 50%);   
+    
+}
+
+
+.section6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    max-width: fit-content;
+}
+
+.section6 div{
+    background-color: #343A40;
+}
+
+/* bon la pr la s6, jai fait 2 colonnes egales, ensuite jai foutu le bg gris que sur les div 
+ensiute jai mis des marges pque les colonnes sont pas collées*/
+
+#div11{
+
+    height: 1045px;
+    max-width: 745px;
+        margin: 50px 0px 50px 200px;
+}
+
+#div22 {
+    max-width: 745px;
+    height: 418px;
+    margin: 50px 200px 50px 0;
+}
+
+/* la au dessus g mis les 2 colonnes à la bonne taille */
+
+
+
+
+
+
+
+
+
+
+
+.section6 h2{
+
+    font-family: "kanit";
+    color: #F17124;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 46px;
+    padding: 25px 20px 25px 20px;
+
+}   
+
+/* la j'ai mis le titre en forme */
+
+.section6 #div11 p{
+
+    font-size: 18px;
+    color: white;
+    line-height: 27px;
+
+}
+
+/* la les p en formes, les ptits titres la mais c des p tkt */
+
+.section6 label{
+
+    font-size: 18px;
+    color: white;
+    line-height: 27px;
+    padding: 0px 50px;
+
+
+}
+
+
+
+
+/* la c le label */
+
+.section6 #div11 a{
+    display: flex;
+    color: #F17124;
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    padding: 11px 40px;
+    border-width: 1px;
+    justify-self: flex-start;
+}
+
+/* la c le bouton en bas, flex c pr qui soit à la ligne, border etc c la bordure du bouton, flex start c pr q'il soit à droite*/
+
+.section6 p{
+
+    padding: 20px 25px 20px 50px;
+}
+
+/* la c pr les espaces des ptits titres */
+
+.section6 input{
+
+    border: solid;
+    border-radius: 30px;
+    padding: 0px 450px 0px 11px;
+    border-width: 1px;
+    background-color: rgb(0, 0, 0, 0%);
+    border-color: white;
+    color: white;
+    margin: 10px 20px 10px 60px;
+    justify-items: self-start;
+    max-width: 655px;
+    min-height: 40px;
+    font-size: 16px;
+
+}
+
+
+/* la c les espaces ou on met le texte */
+
+#grandbloc{
+
+    height: 200px;
+}
+
+#box1 {
+
+    margin: auto;
+    position: absolute;
+}
+
+
+#boite555 {
+
+        padding: 0 50px 0px 50px;
+}
+
+#ntm {
+
+    padding: 30px 0 30px 50px;
+
+}
+/* la c le bouton qui voulais pas mettre de marge en dessous dc jlai mis ds une div tt seul et ça marche */
+
+#ntm :hover{
+    
+    background-color: white;
+    background-color:rgba(0, 0, 0, 50%);   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#p1{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9C9C9;
+    max-width: 569px;
+
+}
+
+#div22 {
+
+    padding: 20px;
+    display: table;
+}
+
+#p2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9C9C9;
+    padding: 20px 25px 5px 50px
+
+}
+
+#p3{
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #F17124;
+    padding: 0px 25px 20px 50px
+
+}
+
+#p4{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9C9C9;
+    padding: 20px 25px 5px 50px
+
+}
+
+
+#p5{
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #F17124;
+    padding: 0px 25px 20px 50px
+
+}
+
+#p6{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9C9C9;
+    padding: 20px 25px 5px 50px
+
+}
+
+#p7 {
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #F17124;
+    padding: 5px 25px 20px 50px
+
+}
+
+
+#p7 a {
+
+
+    color: #F17124;
+}
+
